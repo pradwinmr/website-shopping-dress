@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dress Shopping</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fdfdfd;
+    }
+    header {
+      background: #ff4081;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      font-size: 24px;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      text-align: center;
+      padding-bottom: 15px;
+    }
+    .card img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+    .card h3 {
+      margin: 10px 0 5px;
+    }
+    .card p {
+      color: gray;
+      margin: 5px 0;
+    }
+    .card button {
+      background: #ff4081;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .card button:hover {
+      background: #e73370;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    👗 Dress Shopping Store
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <img src="https://via.placeholder.com/200x250.png?text=Red+Dress" alt="Red Dress">
+      <h3>Red Dress</h3>
+      <p>₹999</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/200x250.png?text=Blue+Dress" alt="Blue Dress">
+      <h3>Blue Dress</h3>
+      <p>₹1199</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/200x250.png?text=Black+Dress" alt="Black Dress">
+      <h3>Black Dress</h3>
+      <p>₹1499</p>
+      <button>Add to Cart</button>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Dress Shopping Store | All Rights Reserved
+  </footer>
+
+</body>
+</html>
